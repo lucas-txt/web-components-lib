@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+.caixa {
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  width: 250px;
+}
+
+.caixa {
+  height: 50px;
+  width: 250px;
+
+  display: flex;
+}
+
+
+[class^="estrela-"] {
+  width: 100%;
+  height: 100%;
+
+  top: -4.5%;
+  
+  position: relative;
+  transition-duration: .2s;
+
+  transform-style: preserve-3d;
+}
+
+[class^="face-"] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+
+  text-align: center;
+  
+  transform-origin: bottom;
+  position: absolute;
+}
+.icon {
+  height: 100%;
+  width: 100%;
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+
+[class^="face-ativada"] {
+  background-color: yellow;
+
+} 
+[class^="face-ativada"] .icon {
+  background-color: blue;
+
+}
+
+[class^="face-desativada"] {
+  /* position: relative; */
+  background-color: lightgray;
+  transform: rotateX(90deg);
+}
+[class^="face-desativada"] .icon {
+  background-color: aqua;
+  transform: rotateX(180deg);
+}
+
+
+
