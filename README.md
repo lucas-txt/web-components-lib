@@ -10,7 +10,7 @@ Demonstração: https://web-components-lib-kappa.vercel.app/
 
 
 ### `<text-block></text-block>`
-Um bloco com botão para viralo e mostrar uma derterminadafrase frase. 
+Um bloco com botão para viralo e mostrar uma derterminada frase. 
 
 - Parametros:
   - `arrow-size="40"` define a porcentagem de espaço que o bloco de seta ocupa, 40% nesse cado.
